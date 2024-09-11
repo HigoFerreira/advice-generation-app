@@ -25,14 +25,13 @@ main {
   padding-top: 39px;
 }
 
+
 .advice,
 .number {
-
   padding: 0px 1px 5px 3px;
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 4px;
-
 }
 
 
@@ -43,3 +42,38 @@ main {
   font-weight: 700;
   padding-top: 15px;
 }
+
+.pattern-divider {
+  display: flex;
+  justify-content: center;
+}
+
+.pattern-divider-desktop{
+  padding-top: 35px;
+  width: 350px;
+}
+
+.neon-green {
+  background: var(--Neon-Green);
+  box-sizing: border-box;
+  
+  transform: translate(282%, 30% );
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+}
+
+.icon-dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* .neon-green,
+.icon-dice{
+  cursor: pointer;
+  transform: scale(1.10);
+} */
+
