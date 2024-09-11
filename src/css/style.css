@@ -1,0 +1,53 @@
+body {
+  background-color: var(--bg-color);
+  font-family: "Manrope", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-thought {
+  background-color: var(--color-card);
+  width: 540px;
+  height: 333px;
+  border-radius: 15px;
+}
+
+.title {
+  color: var(--color-btn-card-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 46px;
+}
+
+.advice{
+  color: var(--color-btn-card-text);
+  justify-content: space-around;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  padding: 4px;
+
+}
+
+.number{
+  color: var(--color-btn-card-text);
+  justify-content: space-around;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 4px;
+}
+
+.thought{
+  color: var(--color-text);
+  text-align: center;
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
