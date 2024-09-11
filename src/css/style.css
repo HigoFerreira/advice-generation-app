@@ -12,7 +12,7 @@ main {
 
 .card-thought {
   background-color: var(--Dark-Grayish-Blue);
-  width: 434px;
+  width: 433px;
   height: 266px;
   border-radius: 11px;
 }
@@ -39,7 +39,7 @@ main {
 .thought {
   color: var(--Light-Cyan);
   text-align: center;
-  font-size: 22px;
+  font-size: 22.3px;
   font-weight: 700;
   padding-top: 15px;
 }
