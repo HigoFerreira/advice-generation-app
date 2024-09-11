@@ -12,9 +12,9 @@ main {
 
 .card-thought {
   background-color: var(--Dark-Grayish-Blue);
-  width: 540px;
-  height: 333px;
-  border-radius: 15px;
+  width: 434px;
+  height: 266px;
+  border-radius: 11px;
 }
 
 .title {
@@ -22,32 +22,24 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 46px;
+  padding-top: 39px;
 }
 
-.advice{
-  
-  justify-content: space-around;
-  font-size: 13px;
-  font-weight: 600;
+.advice,
+.number {
+
+  padding: 0px 1px 5px 3px;
+  font-size: 10px;
+  font-weight: 500;
   letter-spacing: 4px;
-  padding: 4px;
 
 }
 
-.number{
-  
-  justify-content: space-around;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 4px;
-  padding: 4px;
-}
 
-.thought{
+.thought {
   color: var(--Light-Cyan);
   text-align: center;
-  padding-top: 20px;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
+  padding-top: 15px;
 }
