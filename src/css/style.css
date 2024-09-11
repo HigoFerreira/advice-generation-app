@@ -1,5 +1,5 @@
 body {
-  background-color: var(--bg-color);
+  background-color: var(--Dark-Blue);
   font-family: "Manrope", sans-serif;
 }
 
@@ -11,14 +11,14 @@ main {
 }
 
 .card-thought {
-  background-color: var(--color-card);
+  background-color: var(--Dark-Grayish-Blue);
   width: 540px;
   height: 333px;
   border-radius: 15px;
 }
 
 .title {
-  color: var(--color-btn-card-text);
+  color: var(--Neon-Green);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ main {
 }
 
 .advice{
-  color: var(--color-btn-card-text);
+  
   justify-content: space-around;
   font-size: 13px;
   font-weight: 600;
@@ -36,7 +36,7 @@ main {
 }
 
 .number{
-  color: var(--color-btn-card-text);
+  
   justify-content: space-around;
   font-size: 12px;
   font-weight: 700;
@@ -45,7 +45,7 @@ main {
 }
 
 .thought{
-  color: var(--color-text);
+  color: var(--Light-Cyan);
   text-align: center;
   padding-top: 20px;
   font-size: 28px;

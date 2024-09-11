@@ -1,6 +1,9 @@
-:root{
-    --color-text: hsl(193, 38%, 86%);
-    --color-btn-card-text: hsl(150, 100%, 66%);
-    --color-card:hsl(217, 19%, 24%);
-    --bg-color:hsl(218, 23%, 16%);
+:root {
+
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
 }
