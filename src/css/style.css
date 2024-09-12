@@ -66,7 +66,7 @@ main {
 .pattern-divider {
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .pattern-divider-desktop {
@@ -74,24 +74,28 @@ main {
   width: 445px;
 }
 
-.neon-green {
+.container{
+  justify-content: center;
+  display: flex;
+  padding-top: 25px;
+  /* border-radius: 50%; */
+  
+}
+
+.circle-green{
   background: var(--Neon-Green);
+  justify-content: center;
+  display: flex;
+  
+  border-radius: 70px;
+  
+}
+
+
+/* .icon-dice-black {
   
   border-radius: 50%;
-  width: 65px;
-  height: 65px;
-  cursor: pointer;
-}
+  width: 30px;
+  height: 30px;
 
-.icon-dice {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-/* .neon-green,
-.icon-dice{
-  cursor: pointer;
-  transform: scale(1.10);
 } */
