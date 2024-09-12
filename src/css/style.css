@@ -59,25 +59,24 @@ main {
 
   font-size:27.8px;
   font-weight: 700;
-  /*  */
-  width: 450px;
+
+  width: 433px;
 }
 
 .pattern-divider {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .pattern-divider-desktop {
-  padding-top: 35px;
-  width: 350px;
+  padding-top: 63px;
+  width: 445px;
 }
 
 .neon-green {
   background: var(--Neon-Green);
-  box-sizing: border-box;
-
-  transform: translate(282%, 30%);
+  
   border-radius: 50%;
   width: 65px;
   height: 65px;
@@ -88,7 +87,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
 }
 
 /* .neon-green,
