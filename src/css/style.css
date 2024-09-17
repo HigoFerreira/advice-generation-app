@@ -70,27 +70,28 @@ main {
   width: 445px;
 }
 
-
-.container-buttom {
-  display: flex;
+.icon-dice{
+  display:flex;
   justify-content: center;
-  transform: translate(0px, 42px);
+  padding-top: 40px;
+  height: 10px;
+  
 }
 
-
-.btn-neon {
-  border: none;
+.circle-neon{
+  background-color: var(--Neon-Green);
   display: flex;
   justify-content: center;
+  
+
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: var(--Neon-Green);
-
-  cursor: pointer;
+  
 }
 
-
-.dado-blak {
-  padding: 18px;
+.icon-dado {
+  
+  width: 25px;
+  height: 25px;
 }
