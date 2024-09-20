@@ -70,28 +70,26 @@ main {
   width: 445px;
 }
 
-.icon-dice{
-  display:flex;
+.space-buttom{
+  /* background-color: aqua; */
+  display: flex;
   justify-content: center;
-  padding-top: 40px;
-  height: 10px;
-  
+  height: 145px;
+  align-items: center;
+
 }
 
 .circle-neon{
   background-color: var(--Neon-Green);
   display: flex;
-  justify-content: center;
-  
-
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
-  
 }
 
 .icon-dado {
-  
-  width: 25px;
-  height: 25px;
+  display: block;
+  margin: 19px;
+  width: 40%;
+  height: 40%;
 }
