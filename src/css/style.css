@@ -36,8 +36,8 @@ main {
 }
 
 .number {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 700;
   letter-spacing: 4px;
   width: 47px;
   height: 19px;
@@ -70,7 +70,7 @@ main {
   width: 445px;
 }
 
-.space-buttom{
+.space-buttom {
   /* background-color: aqua; */
   display: flex;
   justify-content: center;
@@ -79,7 +79,7 @@ main {
 
 }
 
-.circle-neon{
+.circle-neon {
   background-color: var(--Neon-Green);
   display: flex;
   width: 65px;
