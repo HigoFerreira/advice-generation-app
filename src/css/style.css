@@ -71,7 +71,6 @@ main {
 }
 
 .space-buttom {
-  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   height: 145px;
